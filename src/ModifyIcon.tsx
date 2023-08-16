@@ -77,9 +77,8 @@ function ModifyIcon(props: Props) {
         expand="block"
       >
         <IonIcon className="modify-icon" icon={pencilOutline} />
-      </IonButton>{" "}
+      </IonButton>
       <IonContent className="ion-padding">
-        {" "}
         <IonPage>
           <IonModal
             id="example-modal"

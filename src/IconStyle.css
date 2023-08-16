@@ -1,21 +1,18 @@
 .delete-icon{
     --background: #dc4747eb;
-    --border-radius: 1rem;
-    margin: 8px;
-    padding: 5px;
+    --border-radius: 1.1rem;
     color: white;
-    height:2rem;
-    width:2rem ;
-    font-size: 10px;
+    height:2.2rem;
+    font-size: 11px;
 
 }
 .modify-icon{
     background-color: #567899d1;
     border-radius: 1rem;
-    margin: 8px;
-    padding: 5px;
+    padding: 5px; 
     color: white;
 }
+
 .add-button{
     width: 12rem;
     font-size: 12px;
@@ -28,13 +25,11 @@
     margin-bottom: 0;
 }
 .modify-button{
-    font-size: 14px;
-    font-family: Segoe UI;
+    font-size: 16px;
+    margin: 0;
     --border-radius: 0;
     --box-shadow: none;
     --background: transparent;
-    height: 2rem;
-    width: 5rem;
 }
 .add-title{
     margin-left:0.5rem;
