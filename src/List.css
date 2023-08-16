@@ -1,0 +1,25 @@
+.list{
+    min-height: calc(103.3vh - 169px);
+}
+.update-delete-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 7rem;
+}
+.item .sc-ion-label-md-h {
+    font-size: 12px;
+    font-family: unset;
+}
+
+.col-title{
+    font-size: 13px;
+    font-family: unset;
+    font-weight: bold;
+    color: #495057;
+    
+}
+.item-form{
+    display: flex;
+    align-content: space-between;
+}

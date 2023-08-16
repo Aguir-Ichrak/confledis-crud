@@ -1,0 +1,22 @@
+.search{
+    margin-right: 3.5rem;
+    --box-shadow: none;
+    --placeholder-color: #6c757d;
+    --cancel-button-color: black;
+    --clear-button-color: red;
+    border-bottom: 1px solid #b4b4b4;
+    padding-bottom: 0 !important;
+    padding-left: 0;
+    --icon-color: #9A9A9A;
+}
+
+.searchbar-search-icon.sc-ion-searchbar-md {
+    top: 11px;
+    width: 18px;
+    height: 17px;
+}
+.searchbar-input.sc-ion-searchbar-md {
+    font-size: 14px;
+    font-weight: 200;
+    padding-bottom: 0;
+}

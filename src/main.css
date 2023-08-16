@@ -1,0 +1,94 @@
+ion-modal#example-modal {
+  --height: 53%;
+  /* --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); */
+}
+
+ion-modal#example-modal ion-toolbar {
+  --background: #fff;
+  --color: rgb(126 136 212);
+  font-family: unset;
+  height: 3rem;
+}
+
+ion-modal#example-modal::part(backdrop) {
+  background: rgb(116 154 210);
+  opacity: 1;
+}
+
+.alert-button.sc-ion-alert-md {
+  color: black;
+}
+.alert-title.sc-ion-alert-md {
+    color: rgb(134, 134, 158);
+    height: 3rem;
+  font-size: 15px;
+}
+
+.input-label-placement-stacked.sc-ion-input-md-h .label-text-wrapper.sc-ion-input-md,
+.has-focus.input-label-placement-floating.sc-ion-input-md-h .label-text-wrapper.sc-ion-input-md,
+.has-value.input-label-placement-floating.sc-ion-input-md-h .label-text-wrapper.sc-ion-input-md {
+  font-weight: 700;
+  font-size: 17px;
+}
+.input-label-placement-stacked.has-focus.sc-ion-input-md-h .label-text-wrapper.sc-ion-input-md{
+  color:#000;
+}
+.native-input.sc-ion-input-md{
+  font-size: 13px;
+}
+
+.custom-submit-button{
+  --background: #cca19f;
+  width: 9rem;
+  height: 2.7rem;
+  align-self: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: emoji;
+  font-size: 16px;
+}
+.custom-cancel-button{
+  color: rgb(126 136 212);
+  border: 1px solid rgb(126 136 212);
+  width: 9rem;
+  height: 2.7rem;
+  align-self: center; 
+  --background: transparent;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: emoji;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.mt-2{
+  margin-top: 2rem;
+} 
+.mb-2{
+  margin-bottom: 2rem;
+}
+.mb-1{
+  margin-bottom: 1rem;
+}
+
+.alert-button-group.sc-ion-alert-md {
+  justify-content: space-evenly;
+}
+
+.custom-action-block{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+ion-toast.custom-toast  {
+  --width: 15rem;
+  --background: #e4f8f09e;
+  --box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+  --color: #1ea97c;
+  --start:left-to-right;
+  --height: 55px;
+}
+
